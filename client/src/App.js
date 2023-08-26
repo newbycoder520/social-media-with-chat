@@ -36,7 +36,7 @@ function App() {
             />
             <Route path="/chat" element={isAuth ? <Chat /> : <Navigate to="/" />} />
              <Route
-              path="/bridge"
+              path="/search"
               element={isAuth ? <UsersPage /> : <Navigate to="/" />}
             />
             <Route
