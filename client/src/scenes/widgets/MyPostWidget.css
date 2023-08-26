@@ -1,0 +1,18 @@
+.previewImage {
+    position: relative;
+    /* display: flex; */
+}
+
+.previewImage>svg {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+}
+
+.previewImage>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
