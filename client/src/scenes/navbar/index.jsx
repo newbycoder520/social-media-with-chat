@@ -67,7 +67,7 @@ const Navbar = ( userId ) => {
           >
             <InputBase placeholder="Click the search icon..." />
             <IconButton>
-              <Search onClick={() => navigate("/bridge")}/>
+              <Search onClick={() => navigate("/search")}/>
             </IconButton>
           </FlexBetween>
         )}
